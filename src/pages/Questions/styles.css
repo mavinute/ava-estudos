@@ -1,0 +1,140 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    background-color: #f8f8f8;
+    height: 85vh;
+    border-radius: 5px;
+    padding: 0.8em;
+
+    margin-bottom: 1em;
+  }
+
+  .form-question {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .form-question label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .form-question select {
+    margin-top: 5px;
+    width: 500px;
+    background-color: #DDD;
+  }
+
+  .input-question {
+    resize: none;
+    font-family: sans-serif;
+    
+    width: 500px;
+    height: 150px;
+    border: 2px solid #DDD;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .status{
+    display: flex;
+    padding: 5px;
+  }
+
+  .status span {
+    padding-right: 10px;
+  }
+
+  .btn-question {
+    width: 500px;
+    height: 30px;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #181c2e;
+    color: #DDD;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .btn-quetions{
+    margin: 10px;
+    width: 500px;
+    height: 30px;
+    min-height: 30px;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #181c2e;
+    color: #DDD;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .item-question {
+    padding: 10px;
+
+    background-color: #DDD;
+    margin-top: 5px;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  @media(max-width: 600px){
+    .container {
+      padding: 20px;
+    }
+
+    .form-question {
+      width: 100%;
+    }
+
+    .select-load {
+      max-width: 100%;
+    }
+
+    .option-load {
+      max-width: 90%;
+    }
+
+    .input-question {
+      width: 100%;
+    }
+
+    .btn-question {
+      width: 100%;
+    }
+
+    .btn-quetions {
+      width: 100%;
+    }
+
+    .item-question {
+      width: 300px;
+      height: 100px;
+      max-width: 300px;
+
+      display: flex;
+      align-items: start;
+      
+    }
+  }
